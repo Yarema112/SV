@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="css/null.css">
+	<title>web_devSV</title>
+</head>
+
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="js/main.min.js"></script>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__icon">
+					<img src="images/dist/Union.svg" alt="icon"> <span><button id="burger" type="button">menu</button></span>
+				</a>
+				<ul class="header__menu menu burger-open">
+					<li><a href="#home" class="menu__list">Home</a></li>
+					<li><a href="#aboutMe" class="menu__list">about me</a></li>
+					<li><a href="#projects" class="menu__list">projects</a></li>
+					<li><a href="#connection" class="menu__list">connection</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<main class="main">
+
+			<section id="home" class="main__container">
+				<div class="main__block _translateY">
+					<img class="main__imeg" src="images/dist/photo_2024-04-23_14-57-14.avif" alt="">
+					<div class="main__text text">
+						<h2 class="text__main-title">Hello</h2>
+						<p class="text__info"><span>I`m a front-end developer</span> <br> My name is Vasyl and I'm
+							laying sites</p>
+						<div class="text__block">
+							<div class="text__set set">
+								<a href="https://www.facebook.com/vasyliy.savchyn" class="set__fb">
+									<img src="images/dist/icons8-fb.svg" alt="picture">
+								</a>
+								<a href="https://www.instagram.com/yarema12/" class="set__insta">
+									<img src="images/dist/icons8-instagram.svg" alt="picture">
+								</a>
+								<a href="https://t.me/yarema112" class="set__telegram">
+									<img src="images/dist/icons8-телеграмма-app.svg" alt="picture">
+								</a>
+							</div>
+							<!--<a href="" class="text__dsv">download sv</a>-->
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="projects" class="last-project">
+				<div class="last-project__container">
+					<h2 class="last-project__main-title">last project</h2>
+					<div class="last-project__carts">
+						<div class="cart">
+							<picture class="cart__picture">
+								<source>
+								<a href="https://yarema112.github.io/CV_ALKA/"><img src="images/dist/sv_bc.avif"
+										alt="picture"></a>
+							</picture>
+							<div class="cart__text text-cart">
+								<a href="https://yarema112.github.io/CV_ALKA/">
+									<div class="text-cart__title">website business card</div>
+								</a>
+								<div class="html">
+									<span>HTML</span><span>CSS</span>
+								</div>
+								<div class="text-cart__info">A business card website is an original and effective way to talk
+									about
+									your professional and personal qualities. The site is adaptive to any device.</div>
+								<!--<div class="text-cart__kod kod-text-cart">
+							<a href="#" class="kod-text-cart__kod">kod</a>
+							<a href="#" class="kod-text-cart__demo">demo</a>
+						</div>-->
+							</div>
+						</div>
+
+
+						<div class="cart">
+							<picture class="cart__picture">
+								<source>
+								<a href="https://yarema112.github.io/DAPPER-BULLY/"><img src="images/dist/dapper.avif"
+										alt="picture"></a>
+							</picture>
+
+							<div class="cart__text text-cart">
+								<a href="https://yarema112.github.io/DAPPER-BULLY/">
+									<div class="text-cart__title">one page site</div>
+								</a>
+								<div class="html"><span>HTML</span><span>CSS</span><span>JavaScript</span>
+								</div>
+								<div class="text-cart__info">A stylish animated site for your business - present your products
+									and
+									services effectively and modernly</div>
+								<!--<div class="text-cart__kod kod-text-cart">
+							<a href="#" class="kod-text-cart__kod">kod</a>
+							<a href="#" class="kod-text-cart__demo">demo</a>
+						</div>-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="aboutMe" class="vasyl">
+				<div class="vasyl__container">
+					<div class="vasyl__block">
+						<picture class="vasyl__imeg">
+							<source>
+							<img src="images/dist/photo_2024-05-26_17-52-11.avif" alt="picture">
+						</picture>
+						<div class="vasyl__content">
+							<h2 class="vasyl__title">glad to see you</h2>
+							<h3 class="vasyl__name">I`m Vasyl Savchyn</h3>
+							<p class="vasyl__text">I`m developing sites for people and companies. I`m doing everything myself:
+								I
+								make a prototype, design mock, I write code.</p>
+							<h4 class="vasyl__step-title">Code, design, training</h4>
+							<p class="vasyl__step-text">I can assemble a page for your company, even if you need to run it
+								tomorrow. From the tools there are:
+								Figma, HTML, CSS, JavaScript</p>
+						</div>
+					</div>
+					<div class="vasyl-language">
+						<h2 class="vasyl-language__text">I work with different languages and tools</h2>
+						<div class="vasyl-language__html html">
+							<span>HTML</span><span>CSS</span><span>JavaScript</span>
+							<span>Design</span><span>SASS</span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="connection" class="disscous">
+				<div class="disscous__container">
+					<form class="form" id="emailForm" action="#">
+
+						<!-- Hidden Required Fields -->
+						<input type="hidden" name="project_name" value="web devSV">
+						<input type="hidden" name="admin_email" value="opvs.vs12@gmail.com">
+						<input type="hidden" name="form_subject" value="заявка на верстку">
+						<!-- END Hidden Required Fields -->
+
+
+
+
+						<h2 class="form__title">Ready to discuss the project?</h2>
+						<div class="form__group">
+							<input class="form__input" type="text" name="Ім'я" id="name" placeholder=" ">
+							<label class="form__label" for="name">Name</label>
+						</div>
+						<div class="form__group">
+							<input class="form__input" type="email" name="e-mail" id="email" placeholder=" ">
+							<label class="form__label" for="name">Email</label>
+						</div>
+						<div class="form__group">
+							<textarea class="form__textarea" name="Повідомлення" id="textarea" cols="30" rows="5"
+								placeholder=" "></textarea>
+							<label class="form__label" for="textarea">Message</label>
+						</div>
+						<button class="form__btn" type="submit">Send</button>
+					</form>
+				</div>
+			</section>
+
+
+
+
+
+
+		</main>
+		<footer class="footer">
+			<section class="footer__container">
+				<h2 class="footer__text">i do my best</h2>
+			</section>
+		</footer>
+	</div>
+	</div>
+</body>
+
+</html>
